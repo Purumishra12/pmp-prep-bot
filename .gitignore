@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+backend/.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local generated data
+backend/data/knowledge_index.pkl
+backend/data/progress.json
+backend/data/source_docs/
+backend/data/chunks/
+backend/data/indexes/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
